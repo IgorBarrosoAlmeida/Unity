@@ -203,15 +203,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4181462717127938, guid: 480e7ecde2f844e83ac491cdf48f130c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.6284256
+      value: 12.08
       objectReference: {fileID: 0}
     - target: {fileID: 4181462717127938, guid: 480e7ecde2f844e83ac491cdf48f130c, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.569727
+      value: 2.31
       objectReference: {fileID: 0}
     - target: {fileID: 4181462717127938, guid: 480e7ecde2f844e83ac491cdf48f130c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.011719
+      value: 2.569727
       objectReference: {fileID: 0}
     - target: {fileID: 4181462717127938, guid: 480e7ecde2f844e83ac491cdf48f130c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -232,6 +232,24 @@ Prefab:
     - target: {fileID: 4181462717127938, guid: 480e7ecde2f844e83ac491cdf48f130c, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 212385451170038346, guid: 480e7ecde2f844e83ac491cdf48f130c,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212952306411674522, guid: 480e7ecde2f844e83ac491cdf48f130c,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4639661524972132, guid: 480e7ecde2f844e83ac491cdf48f130c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904123861726658, guid: 480e7ecde2f844e83ac491cdf48f130c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 480e7ecde2f844e83ac491cdf48f130c, type: 2}
@@ -286,7 +304,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 125ede552337c465aa43b5fd5de01ecc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -465,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b01f418f910874e998ca94af984be43c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tempoParaGerar: 5
+  tempoParaGerar: 3
   obstaculo: {fileID: 1182052728835954, guid: 480e7ecde2f844e83ac491cdf48f130c, type: 2}
 --- !u!4 &1335274636
 Transform:
@@ -474,7 +492,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1335274634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.26, y: 0.72, z: -10.011719}
+  m_LocalPosition: {x: 12.08, y: 2.31, z: -10.011719}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
