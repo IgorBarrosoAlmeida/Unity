@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Aviao.cs" />
+     <Compile Include="Assets\Carrossel.cs" />
      <Compile Include="Assets\GeradorDeObstaculo.cs" />
      <Compile Include="Assets\Obstaculo.cs" />
  <Reference Include="UnityEngine.CoreModule">
