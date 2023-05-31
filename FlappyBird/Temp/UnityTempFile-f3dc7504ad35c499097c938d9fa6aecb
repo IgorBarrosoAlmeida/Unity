@@ -157,9 +157,9 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 Assets/Aviao.cs
+Assets/Carrossel.cs
 Assets/GeradorDeObstaculo.cs
 Assets/Obstaculo.cs
-Assets/Piso.cs
 -r:/opt/Unity/Editor/Data/Mono/lib/mono/unity/System.Runtime.Serialization.dll
 -r:/opt/Unity/Editor/Data/Mono/lib/mono/unity/System.Xml.Linq.dll
 -r:/opt/Unity/Editor/Data/Mono/lib/mono/unity/UnityScript.dll
