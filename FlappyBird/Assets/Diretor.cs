@@ -5,9 +5,11 @@ using UnityEngine;
 public class Diretor : MonoBehaviour {
 	[SerializeField] private GameObject telaGameOver;
 	private Aviao aviao;
+	private Pontuacao pontuacao;
 
 	private void Start() {
 		this.aviao = GameObject.FindObjectOfType<Aviao>();
+		this.pontuacao = FindObjectOfType<Pontuacao>();
 	}
 
 
@@ -20,6 +22,7 @@ public class Diretor : MonoBehaviour {
 		this.telaGameOver.SetActive(false);
 		Time.timeScale = 1;
 		this.aviao.Reiniciar();
+		this.pontuacao.Reiniciar();
 		this.DestruirObstaculos();
 	}
 
