@@ -16,7 +16,7 @@ public class Obstaculo : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		this.transform.Translate(Vector3.left*this.velocidade);
+		this.transform.Translate(Vector3.left * this.velocidade * Time.deltaTime);
 
 		if(!this.pontuei && this.transform.position.x < this.posicaoAviao.x) {
 			this.pontuei = true;
@@ -29,6 +29,10 @@ public class Obstaculo : MonoBehaviour {
 	}
 
 	private void OnTriggerEnter2D(Collider2D obj) {
-		GameObject.Destroy(this.gameObject);
+		this.Destruir();
+	}
+
+	public void Destruir() {
+		Destroy(this.gameObject);
 	}
 }

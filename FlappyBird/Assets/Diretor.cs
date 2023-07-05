@@ -30,7 +30,7 @@ public class Diretor : MonoBehaviour {
 		Obstaculo[] obstaculos = FindObjectsOfType<Obstaculo>();
 
 		foreach(Obstaculo o in obstaculos) {
-			Destroy(o);
+			o.Destruir();
 		}
 	}
 }
